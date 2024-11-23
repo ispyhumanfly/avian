@@ -1,5 +1,5 @@
 {
-  "name": "avian",
+  "name": "@bartonmalow/avian",
   "version": "1.0.0",
   "description": "Create Enterprise-class component driven applications that scale.",
   "publishConfig": {
