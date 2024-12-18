@@ -47,7 +47,7 @@
     "express-bunyan-logger-updated": "2.0.1",
     "express-minify": "1.0.0",
     "express-session": "1.18.0",
-    "express-static-gzip": "2.1.7",
+    "express-static-gzip": "2.1.8",
     "fast-glob": "3.3.2",
     "graceful-fs": "4.2.10",
     "jsonfile": "5.0.0",
