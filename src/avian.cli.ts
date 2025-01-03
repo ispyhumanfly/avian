@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import "./functions/sentryInstrument"
 import cluster from "cluster"
 import history from "connect-history-api-fallback"
 import * as cookie from "cookie"
@@ -12,6 +13,7 @@ import session from "express-session"
 import * as fs from "graceful-fs"
 import * as glob from "fast-glob"
 import * as https from "https"
+import * as Sentry from "@sentry/node";
 import { mkdirp } from "mkdirp"
 import * as path from "path"
 import * as ts from "typescript"
@@ -821,6 +823,11 @@ if (cluster.isMaster) {
         avian.all("/", (req, res, next) => {
             res.redirect(`/${argv.entrypoint}`)
         })
+
+        // NOTE: this must be done after all routes
+        if(Sentry.isInitialized()) {
+            Sentry.setupExpressErrorHandler(avian)
+        }
     
     }).catch(err => console.log(err))
 }

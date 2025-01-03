@@ -209,6 +209,18 @@ export const argv = yargs(hideBin(process.argv))
             describe:
             "Avian components are capable of scheduling cron-like jobs that are executed on the server.",
             type: "boolean"
+        })
+        .option("sentryDSN",{
+            type:"string",
+            describe: "If a Sentry DSN is provided Avian will instrument Sentry correctly for the express app."
+        })
+        .option("sentryEnvironment",{
+            type:"string",
+            describe: "The environment tag for Sentry"
+        })
+        .option("sentryRelease",{
+            type:"string",
+            describe: "The release version for Sentry"
         }).parseSync()
 
 
