@@ -2,13 +2,13 @@
 
 Create Enterprise-class component driven applications that scale.
 
-[![CircleCI](https://img.shields.io/circleci/build/github/flypapertech/avian/master)](https://circleci.com/gh/flypapertech/avian/tree/master)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/flypapertech/avian)](https://hub.docker.com/repository/docker/flypapertech/avian/builds)
-[![Known Vulnerabilities](https://snyk.io/test/github/flypapertech/avian/badge.svg)](https://snyk.io/test/github/flypapertech/avian)
-[![npm (scoped)](https://img.shields.io/npm/v/@flypapertech/avian.svg)](https://www.npmjs.com/package/@flypapertech/avian)
-[![License](https://img.shields.io/npm/l/@flypapertech/avian.svg)](https://github.com/flypapertech/avian/blob/master/LICENSE)
-[![Dependencies](https://david-dm.org/flypapertech/avian/status.svg)](https://david-dm.org/flypapertech/avian)
-[![Docker Pulls](https://img.shields.io/docker/pulls/flypapertech/avian)](https://hub.docker.com/r/flypapertech/avian)
+[![CircleCI](https://img.shields.io/circleci/build/github/ispyhumanfly/avian/master)](https://circleci.com/gh/ispyhumanfly/avian/tree/master)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ispyhumanfly/avian)](https://hub.docker.com/repository/docker/ispyhumanfly/avian/builds)
+[![Known Vulnerabilities](https://snyk.io/test/github/ispyhumanfly/avian/badge.svg)](https://snyk.io/test/github/ispyhumanfly/avian)
+[![npm (scoped)](https://img.shields.io/npm/v/spytech/avian.svg)](https://www.npmjs.com/package/spytech/avian)
+[![License](https://img.shields.io/npm/l/spytech/avian.svg)](https://github.com/ispyhumanfly/avian/blob/master/LICENSE)
+[![Dependencies](https://david-dm.org/ispyhumanfly/avian/status.svg)](https://david-dm.org/ispyhumanfly/avian)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ispyhumanfly/avian)](https://hub.docker.com/r/ispyhumanfly/avian)
 
 ## Synopsis
 
@@ -34,15 +34,15 @@ Official Docker instructions coming soon. For now, check out the hello-world exa
 
 ### NPM
 
-The latest stable release of Avian is available on [npmjs.com](https://www.npmjs.com/package/@flypapertech/avian).
+The latest stable release of Avian is available on [npmjs.com](https://www.npmjs.com/package/spytech/avian).
 
 The most common scenario is to install Avian as a dependency of your project.
 
-    npm install @flypapertech/avian
+    npm install spytech/avian
 
     or 
 
-    yarn add @flypapertech/avian
+    yarn add spytech/avian
 
 And can be accessed as...
 
@@ -50,11 +50,11 @@ And can be accessed as...
 
 Alternatively, Avian can be installed globally, making it possible to serve multiple applications with a single installation of Avian.
 
-    npm install @flypapertech/avian -g
+    npm install spytech/avian -g
 
     or
 
-    yarn global add @flypapertech/avian
+    yarn global add spytech/avian
 
 And can be accessed globally, but will need to be told where your Avian application is located...
 
@@ -180,12 +180,12 @@ headers: {
 To make TypeScript aware of the globals Avian adds to your application simply place the below import into any .d.ts file that is within your application.
 
 ```typescript
-import * as Avian from "@flypapertech/avian"
+import * as Avian from "spytech/avian"
 ```
 
 ## Examples
 
-Examples are located in the [examples directory](https://github.com/flypapertech/avian/tree/master/examples).
+Examples are located in the [examples directory](https://github.com/ispyhumanfly/avian/tree/master/examples).
 
 ## Contributors
 
