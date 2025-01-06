@@ -1,6 +1,6 @@
 {
   "name": "@spytech/avian",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create Enterprise-class component driven applications that scale.",
   "publishConfig": {
     "access": "public"
