@@ -84,7 +84,7 @@
     "@types/redis": "^2.8.7",
     "@types/webpack-node-externals": "3.0.4",
     "@types/yargs": "17.0.32",
-    "mocha": "10.3.0",
+    "mocha": "10.8.2",
     "snyk": "1.1284.0",
     "ts-node": "10.9.1",
     "tslint": "6.1.3",
