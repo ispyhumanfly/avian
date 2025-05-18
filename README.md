@@ -38,11 +38,11 @@ The latest stable release of Avian is available on [npmjs.com](https://www.npmjs
 
 The most common scenario is to install Avian as a dependency of your project.
 
-    npm install spytech/avian
+    npm install @spytech/avian
 
     or 
 
-    yarn add spytech/avian
+    yarn add @spytech/avian
 
 And can be accessed as...
 
@@ -50,11 +50,11 @@ And can be accessed as...
 
 Alternatively, Avian can be installed globally, making it possible to serve multiple applications with a single installation of Avian.
 
-    npm install spytech/avian -g
+    npm install @spytech/avian -g
 
     or
 
-    yarn global add spytech/avian
+    yarn global add @spytech/avian
 
 And can be accessed globally, but will need to be told where your Avian application is located...
 
